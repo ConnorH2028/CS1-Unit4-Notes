@@ -51,3 +51,24 @@ console.log("My age is " + age);
 let user = "Connor";
 let message = "Welcome " + user  + "!";
 console.log(message);
+
+/* FUNCTIONS:
+    Reusable sets of code statements
+    That perform a specific task/process/routine
+*/
+
+
+// console.log is a built-in  FUNCTION we use
+console.log("We just used a function!");
+
+//DEFINE (create) your own function
+function getReady() {
+    // SATEMENTS (actions) to execute for this routine
+    console.log("1, wake up");
+    console.log("2, brush teeth");
+    console.log("3, get dressed");
+}
+
+//CALL (use) a function
+getReady();
+getReady(); // can call it as many times as you want
