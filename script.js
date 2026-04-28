@@ -72,3 +72,44 @@ function getReady() {
 //CALL (use) a function
 getReady();
 getReady(); // can call it as many times as you want
+
+/* Slection (CONDITIONALS)
+    A BOOLEAN EXPRESSION is like a question
+    that has a boolean answer (true/false)
+*/
+
+console.log(25 > 4);
+console.log("Is 10 less than 2?");
+console.log(10 < 2);
+
+// Check EQUALITY using the  == operator (===)
+console.log(1 == 1);
+console.log(1 != 1); // != mean NOT equal
+
+// String can be compared 
+console.log("Zaina" == "Loreal");
+console.log("Connor" == "Connor");
+console.log("ben" == "Ben");
+console.log("Loreal" > "Ms.Walter"); // false, m comes LATER that L in the dictonary, so M is greater than L
+console.log ("Z" < "a");
+
+// Can use camparison operators btwn VARIABLES & values
+let password = "abc123!";
+console.log("kjdfhsjkd" == password);
+
+// IF STATEMENTS use a condition/boolena expresion
+// to make a decision about which code to run
+let myAge = 16;
+
+if (myAge >= 17){
+    console.log("you can get your NY license!");
+}
+
+else if (myAge == 16) {
+    console.log("you can get your learners permit");
+}
+
+// ELSE block accounts for the "otherwise" case
+else {
+    console.log("too young to drive!");
+}
